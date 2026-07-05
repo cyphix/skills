@@ -18,13 +18,13 @@ Issue lifecycle and project-board staging on GitHub Projects v2. Depends on **ga
 Install the **gai-ghcli** skill before using this skill:
 
 ```bash
-npx skills add cyphix/gaighcli --skill gai-ghcli -g -y
+npx skills add cyphix/gaighcli --skill gai-ghcli
 ```
 
 After install, read the dependency skill at:
 
 - Project: `.agents/skills/gai-ghcli/SKILL.md`
-- Global (`-g`): `~/.agents/skills/gai-ghcli/SKILL.md`
+- User home: `~/.agents/skills/gai-ghcli/SKILL.md`
 
 Canonical source: [skills/gai-ghcli/SKILL.md](https://github.com/cyphix/gaighcli/blob/main/skills/gai-ghcli/SKILL.md)
 

@@ -55,10 +55,10 @@ When a skill depends on another skill in a **different repo**, document the inst
 Example: `github-issues` requires the **gai-ghcli** skill from [cyphix/gaighcli](https://github.com/cyphix/gaighcli):
 
 ```bash
-npx skills add cyphix/gaighcli --skill gai-ghcli -g -y
+npx skills add cyphix/gaighcli --skill gai-ghcli
 ```
 
-After install, agents read `.agents/skills/gai-ghcli/SKILL.md` (project) or `~/.agents/skills/gai-ghcli/SKILL.md` (global).
+After install, agents read `.agents/skills/gai-ghcli/SKILL.md` (project) or `~/.agents/skills/gai-ghcli/SKILL.md` (user home).
 
 ## Commands
 
@@ -72,8 +72,8 @@ npx skills add . --list
 # List skills from GitHub (after push)
 npx skills add cyphix/skills --list
 
-# Install one skill globally for Cursor
-npx skills add cyphix/skills --skill <name> -g -a cursor -y
+# Install one skill for Cursor
+npx skills add cyphix/skills --skill <name> -a cursor
 ```
 
 ## Non-negotiables
